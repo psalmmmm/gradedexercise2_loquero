@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Page</title>
+</head>
+
+
+<body>
+    <img id="image" src="images/as.jpeg" style="height: 400px; width: 400px;">
+    <button onclick="revertImage()">Revert</button>
+    <button onclick="changeImage()">Change</button>
+    <script>
+        function changeImage()
+        {
+            image.src='images/as.jpeg';
+        }
+        function revertImage()
+        {
+            image.src='images/bs.jpeg';
+        }
+    </script>
+</body>
+</html>
